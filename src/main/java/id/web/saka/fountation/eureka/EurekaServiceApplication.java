@@ -2,13 +2,14 @@ package id.web.saka.fountation.eureka;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.cloud.netflix.eureka.server.EnableEurekaServer;
 
 @SpringBootApplication
 @EnableEurekaServer
-public class FountationEurekaServiceApplication {
+public class EurekaServiceApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(FountationEurekaServiceApplication.class, args);
+        SpringApplication.run(EurekaServiceApplication.class, args);
     }
 
 }
